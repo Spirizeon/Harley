@@ -1,8 +1,6 @@
 
 # Harley
 Harley, natively hosted desktop assistant. Made with python, voice activated.
-## AlphaGPT core powered by
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/2560px-OpenAI_Logo.svg.png" width = 40% height= "auto"/>
 
 ![Logo](https://i.imgur.com/wddbbdP.png)
 
@@ -37,3 +35,6 @@ To deploy this project run
 
 ## Tech
 - Written in python
+
+## AlphaGPT version powered by
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/2560px-OpenAI_Logo.svg.png" width = 40% height= "auto"/>
