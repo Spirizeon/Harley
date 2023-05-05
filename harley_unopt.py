@@ -95,29 +95,31 @@ def greet_user():
 	  
 
 			
-# -----------------> edit from here
+
 
 def gewgle():
-    preak("what do you want to google?")
-    y = str(ear())
+    DICTATE_CAPTIONS("what do you want to google?")
+    query = str(ear())
     import webbrowser as w
-    msg = "searching for "+ y
-    preak(msg)
-    googlink = "https://www.google.com/search?q=" + y.lower()
+    srchstring = "searching for "+ query
+    DICTATE_CAPTIONS(srchstring)
+    googlink = "https://www.google.com/search?q=" + query.lower()
     w.open_new_tab(googlink)
-    clearconsol()
+    CLEARSCREEN()
+	
 def yewt():
-    preak("What do you want to watch?")
-    y = str(ear())
+    DICTATE_CAPTIONS("What do you want to watch?")
+    query = str(ear())
     import webbrowser as w
-    msg = "searching for "+ y
-    preak(msg)
-    yewlink = "https://www.youtube.com/results?search_query=" + y.lower()
+    srchstring = "searching for "+ y
+    DICTATE_CAPTIONS(srchstring)
+    yewlink = "https://www.youtube.com/results?search_query=" + query.lower()
     w.open_new_tab(yewlink)
-    clearconsol()
+    CLEARSCREEN()
+	
 #user inputs
 def alarm():
-    preak("Please set your alarm time: ")
+    DICTATE_CAPTIONS("Please set your alarm time: ")
     alarmHour = int(input("Hours: "))
     alarmMinute = int(input("Minutes: "))
     nexremlarm("Alarm Setup", "time format?")
@@ -128,6 +130,9 @@ def alarm():
         alarmHour += 12
     #confirmation message
     msg = "Alarm set for "+ str(alarmHour) + ":" + str(alarmMinute)
+	
+	
+# -----------------> edit from here
     nexrem("Alarm Setup", msg)
 
     #setting the alarm
