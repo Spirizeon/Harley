@@ -1,14 +1,5 @@
 
-# Harley
-> Harley, natively hosted desktop assistant. Made with python, voice activated.
-
-![Logo](https://i.imgur.com/wddbbdP.png)
-
-
-## Contributing
-
-Contributions are always welcome!
-
+![banner](https://github.com/Spirizeon/Harley/assets/123345456/eb51b9c1-fd52-409c-bb85-8cc3e4c5fb33)
 ## Features
 
 - Voice-Activated
@@ -33,7 +24,7 @@ For releases, click [here](https://github.com/Ashcaberze/Harley/releases).
 
 
 ## Tech
-- Written in python
+- Written in python3
 
-## AlphaGPT version powered by
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/2560px-OpenAI_Logo.svg.png" width = 40% height= "auto"/>
+## Contributing
+Contributions are always welcome! Just Fork and PR!
