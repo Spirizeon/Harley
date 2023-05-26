@@ -1,6 +1,6 @@
 
 # Harley
-Harley, natively hosted desktop assistant. Made with python, voice activated.
+> Harley, natively hosted desktop assistant. Made with python, voice activated.
 
 ![Logo](https://i.imgur.com/wddbbdP.png)
 
@@ -19,17 +19,16 @@ Contributions are always welcome!
 
 
 ## Installation
+### Download latest releases
+For releases, click [here](https://github.com/Ashcaberze/Harley/releases). 
 
-Click [here](https://github.com/Ashcaberze/Harley/releases)
-    
-## Deployment
-(locally)
-To deploy this project run 
-
+### Clone the repo & run
 ```bash
   cd "Program Files"
-  cd "Harley.DA"
-  harleyunopt.exe
+  git clone git@github.com/spirizeon:harley.git
+  cd "Harley"
+  pip install -r requirements.txt
+  ./harley_unopt.py
 ```
 
 
